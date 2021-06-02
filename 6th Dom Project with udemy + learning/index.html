@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 6</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"> <!-- this is from bulma to use css & bootstrap-->
+</head>
+<body>
+
+<!-- 
+    <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">
+            Component
+          </p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+            <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <a href="#" class="card-footer-item">Save</a>
+          <a href="#" class="card-footer-item">Edit</a>
+          <a href="#" class="card-footer-item">Delete</a>
+        </footer>
+      </div> -->
+<section class="section-a">
+   <div class="container">
+     <div class="colums">
+       <div class="column is-half is-offset-one-quarter">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-2by1">
+              <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1067&q=80" alt="image">
+            </figure>
+          </div>
+          <header class="card-header">
+            <p class="card-header-title">
+              Score Keeper
+            </p>
+          </header>
+          <div class="card-content">
+            <div class="content">
+              <h1 class="title is-1"> <span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+              <p class="subtitle">
+                Count Scores by buttons below !!.
+              </p>
+
+              <label for="playto" class="label is-large is-inline">Winning Point</label>
+              <div class="select is-rounded">
+                <select name="" id="playto">
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+              </select>
+              </div>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <button id="p1Button" class="is-primary button card-footer-item is-large"> Player One +1</button>
+            <button id="p2Button"    class="is-info button card-footer-item is-large"> Player Two +1</button>
+            <button id="reset"    class="is-warning button card-footer-item is-large"> Reset Score</button>
+
+          </footer>
+
+       </div>
+     </div>
+   </div>
+  </section>
+
+
+
+<!-- <div class="container-2">
+
+
+    <select name="" id="playto">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+
+    <button id="p1Button"> +1 to player-one</button>
+    <button id="p2Button"> +1 to player-two</button>
+    <button id="reset">Reset</button>
+
+</div> --> 
+    
+    <script src="/main.js"></script>
+</body>
+</html>
